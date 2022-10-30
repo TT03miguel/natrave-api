@@ -1,0 +1,31 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "main": "server.js",
+  "type": "module",
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
+  "scripts": {
+    "start": "node -r dotenv-safe/config server.js"
+  },
+  "author": {
+    "name": "Pedro Miguel",
+    "email": "dev@pedromiguelcarlosdesouza.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "4.0.0",
+    "@koa/router": "^12.0.0",
+    "@prisma/client": "4.5.0",
+    "bcrypt": "^5.1.0",
+    "date-fns": "^2.29.3",
+    "dotenv-safe": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "2.13.4",
+    "koa-bodyparser": "4.3.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.3.1"
+  }
+}
