@@ -7,7 +7,7 @@
     "seed": "node prisma/seed.js"
   },
   "scripts": {
-    "start": "node -r dotenv-safe/config app/index.js"
+    "start": "node -r dotenv-safe/config api/index.js"
   },
   "author": {
     "name": "Pedro Miguel",
